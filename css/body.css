@@ -1,0 +1,43 @@
+body{
+    background-image: url(../images/background.JPG);
+    
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: rgb(108, 109, 107);
+}
+.logo{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+nav{
+    display:flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+}
+
+footer img{
+    width: 40px;
+        
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+section{
+    margin: 10px;
+}
+
+div {
+    
+    position: absolute;
+    bottom: 20px;
+    left: 40%;
+    /* background-color: rgb(78, 147, 40); */
+    justify-content: space-evenly;
+}
